@@ -43,20 +43,76 @@ import numpy as np
 # Create these 5 NumPy arrays:
 
 # Product IDs → numbers from 501 to 508. 
-Product_ID=np.arange(501,509,1)
-print(Product_ID)
-# Product Prices → 8 equally spaced prices from 100 to 450.
-Product_Prices=np.linspace(100,450,8)
-print(Product_Prices)
+# Product_ID=np.arange(501,509,1)
+# print(Product_ID)
+# # Product Prices → 8 equally spaced prices from 100 to 450.
+# Product_Prices=np.linspace(100,450,8)
+# print(Product_Prices)
 # Returns → initially every product has 0 returns.
-returns=np.zeros(8)
-print(returns)
+# returns=np.zeros(8)
+# print(returns)
 # Availability → initially every product has a value of 1.
-availability=np.ones(8)
-print(availability)
+# availability=np.ones(8)
+# print(availability)
 # Categories → create an array containing:
 # 10, 20, 30, 40
-Categoreies=np.array([10,20,30,40])
-print(Categoreies)
+# Categoreies=np.array([10,20,30,40])
+# print(Categoreies)
+
+# 💼 NumPy Practice — Sales Analytics
+
+# You are working with a company's monthly sales dataset.
+
+# Create the following NumPy arrays:
+
+# Month numbers → Generate 1 through 12.
+# Target sales → Generate 12 equally spaced target values from 50,000 to 1,60,000.
+# Actual sales initialization → Create an array of 12 zeros because actual sales haven't been entered yet.
+# Performance flag → Create an array of 12 ones as the initial/default status.
+# Region codes → Create an array containing the fixed codes:
+# 101, 102, 103, 104
+# what is numpy
+# how the da is ud]sed the numpy 
+# creation of numpy arrays and task linkedin post
+
+# indexing -> numpy
+# a=np.array([10,20,30,40,50])
+# print(a[0])
+# print(a[3])
+# print(a[-5])
+# slicing 
+# print(a[1:4:2])
+#  indexing 
+# uhitha=[10,20,30]
+# print(uhitha[0])
+# a=np.array([[10,20,30], [40,50,60]])   
+# print(a[1,1])
+# a=np.arange(1,44,2) 
+# print(a)
+# print(a.size)
+#single row
+# print(a)
+# [1,2,3,4]
+# [5,6,7,8]
+# b=a.reshape(2,11)
+# b=a.reshape(43,1)
+# print(b)
+arr=np.array([30,50,60,25,9,21])
+print(arr)
+print(np.std(arr))
+print(np.mode(arr))
+# print(np.sum(arr))
+# print(np.min(arr))
+# print(np.max(arr))
+# print(np.size(arr))
+
+
+
+
+
+
+
+
+
 
 
