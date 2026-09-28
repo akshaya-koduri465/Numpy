@@ -97,14 +97,55 @@ import numpy as np
 # b=a.reshape(2,11)
 # b=a.reshape(43,1)
 # print(b)
-arr=np.array([30,50,60,25,9,21])
-print(arr)
-print(np.std(arr))
-print(np.mode(arr))
+# arr=np.array([30,50,60,25,9,21])
+# print(arr)
+# print(np.std(arr))
+# print(np.mode(arr))
 # print(np.sum(arr))
 # print(np.min(arr))
 # print(np.max(arr))
 # print(np.size(arr))
+
+# argmin
+# argmax
+# arr=np.array([5,9,24,12,0,2,31])
+# print(np.min(arr))
+# print(np.argmin(arr))
+# a=np.array([3,5,7,9,11,2])
+# print(np.max(a))
+# print(np.argmax(a))
+# boolean indexing
+# marks=np.array([95,100,75,98,60,80])
+# m=marks>80
+# print(marks[m])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
