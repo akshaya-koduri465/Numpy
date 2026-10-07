@@ -114,10 +114,100 @@ import numpy as np
 # print(np.vstack((a,b))) #y-axis
 
 # otp
-# spli
+# split
 # random
 # broadcasting vs vectorization
 # pamdas introduction
+
+# otp generate
+# random->python,python library
+# [4,9,0,1,6]
+
+# split->dividing into the parts 
+# list->ouput format is "list"
+# s="apple" ,"mango", "banana"
+# names=s.split(",")
+# print(names)
+ 
+#  random
+# randint-.range start,stop,how many numbers
+# choice
+# seed
+
+# a=np.random.randint(1,11,7) 
+# print(a)
+# 1-> minimum
+# 11->maximum excluded
+# 5->how many numbers
+
+# choice already existig work on it
+# numbers=np.array([10,20,30,40,50])
+# result=np.random.choice(numbers,6)
+# print(result)
+
+# seed(42) algorithm pseudo random number
+# np.random.seed(100) #->trainig mode in ml
+# print(np.random.randint(1,11,5))
+
+# broadcasting vs vectorization
+
+# rules and regulations or format
+salary=np.array([5,10,15,20,25])
+res=salary+5
+print(res)
+
+# # python
+# for i in  salary:
+#     stack=[]
+#     if i not in stack:
+#         i+5
+#         stack.append(i+5)
+# print(stack)
+
+# a=np.array([[10,20,30],  #1st row added to b 1d array
+#              [30,40,50]])  #2nd row added to b1d array strecthiong
+
+# b=np.array([1,2,3])
+# print(a+b)
+# compatible=is it ok to work together
+# vectorization we can write the code explicitly withou using the loopsmax for loop
+
+# sales[Revenue]=quantity*price for lop
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
